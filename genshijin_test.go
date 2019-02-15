@@ -23,7 +23,7 @@ func TestShaberu(t *testing.T) {
 		want := test.want
 		got := Shaberu(test.input)
 		if got != want {
-			t.Fatalf("オレ %q キタイ シ タ, オマエ %q ニュウショク シ タ", want, got)
+			t.Fatalf("オレ %q キタイ シ タ, オマエ %q ニュウリョク シ タ", want, got)
 		}
 	}
 }
